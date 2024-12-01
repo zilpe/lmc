@@ -56,7 +56,7 @@ class LMC {
      */
     constructor(inbox, outbox, options={}) {
         this.options = {
-			setFlagOnOverflow: true, 
+			setFlagOnOverflow: false, 
 			zeroNeedsClearedFlag: true,
 			stopWhenUndefined: true,
 			forbidProgramCounterOverflow: true,
